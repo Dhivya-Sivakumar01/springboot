@@ -1,0 +1,48 @@
+body {
+	font-size: 150%;
+	text-align:center;
+	background-color:#e9f3fc;
+	margin-top:150px;
+}
+b{
+	padding-bottom:20px;
+}
+table{
+    padding: 15px;	
+    margin-left:auto;
+	margin-right:auto;
+	border-radius:8px;
+	background-color:#f2f8fd;
+	border:1.5px solid #aaa;
+}
+	
+input[type=submit]{
+    border-radius:5px;
+    border:2px solid #aaa;
+    background-color:powderedblue;
+    padding:5px;
+	width:80px;
+}
+input[type=text],input[type="password"] {
+    border:2px solid #aaa;
+	border-radius:10px;
+	padding:8px;
+	box-sizing:border-box;
+}
+p{
+	font-size:150%;
+}
+
+input:focus{
+    border-color:dodgerBlue;
+	box-shadow:0 0 8px 0 dodgerBlue;
+}
+#blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
